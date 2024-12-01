@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "delete-messages-bot"
+version = "0.1.0"
+description = ""
+authors = ["Zonix01 <andrey3fly@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
